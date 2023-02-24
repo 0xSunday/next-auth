@@ -44,7 +44,7 @@ function AuthForm() {
       });
       console.log(result);
       if (!result.error) {
-        router.replace('/')
+        router.replace("/");
         // window.location.href = "/";
       }
     } else {
